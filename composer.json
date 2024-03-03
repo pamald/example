@@ -1,0 +1,58 @@
+{
+    "type": "project",
+    "name": "pamald/example",
+    "description": "@todo project description",
+    "keywords": [
+        "pamald",
+        "example",
+        "dummy",
+        "tester"
+    ],
+    "authors": [
+        {
+            "name": "Andor",
+            "role": "Maintainer",
+            "homepage": "https://github.com/Sweetchuck"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/pamald/example-project/graphs/contributors"
+        }
+    ],
+    "homepage": "https://github.com/pamald/example-project",
+    "support": {
+        "source": "https://github.com/pamald/example-project",
+        "issues": "https://github.com/pamald/example-project/issues"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "sweetchuck/composer-suite": true,
+            "sweetchuck/git-hooks": true
+        },
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "consolidation/robo": "^5.0",
+        "maddhatter/markdown-table": "^1.2",
+        "nuvoleweb/robo-config": "^3.0",
+        "pamald/robo-pamald-composer": "1.x-dev",
+        "pamald/robo-pamald-npm": "1.x-dev",
+        "pamald/robo-pamald-yarn": "1.x-dev",
+        "sweetchuck/git-hooks": "2.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pamald\\ExampleProject\\": "src/"
+        }
+    }
+}

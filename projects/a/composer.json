@@ -1,0 +1,9 @@
+{
+    "name": "pamald/example-project-sub-a",
+    "description": "Dummy sub-project for testing purposes.",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.3",
+        "ext-json": "*"
+    }
+}

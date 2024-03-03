@@ -1,0 +1,22 @@
+### Composer.
+/vendor/
+/example-*.tar
+/example-*.tar.bz2
+/example-*.tar.gz
+/example-*.tgz
+/example-*.zip
+
+
+### Dummy projects.
+/projects/*/node_modules/
+/projects/*/vendor/
+
+
+### Composer Suite.
+/.composer-suite/
+/composer.local.json
+/composer.local.lock
+
+
+### sweetchuck/git-hooks.
+/.git-hooks-local

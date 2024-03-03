@@ -1,0 +1,9 @@
+{
+    "name": "pamald-example-project-sub-a",
+    "description": "Foo",
+    "private": true,
+    "license": "MIT",
+    "dependencies": {
+        "find-versions": "^5.0.0"
+    }
+}
